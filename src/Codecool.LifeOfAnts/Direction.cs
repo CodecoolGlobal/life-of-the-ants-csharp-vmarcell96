@@ -13,7 +13,7 @@
         /// <summary>
         ///     East direction
         /// </summary>
-        East,
+        West,
 
         /// <summary>
         ///     South direction
@@ -23,6 +23,6 @@
         /// <summary>
         ///     West direction
         /// </summary>
-        West,
+        East,
     }
 }

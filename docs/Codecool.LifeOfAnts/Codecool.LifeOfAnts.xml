@@ -14,7 +14,7 @@
                 North direction
             </summary>
         </member>
-        <member name="F:Codecool.LifeOfAnts.Direction.East">
+        <member name="F:Codecool.LifeOfAnts.Direction.West">
             <summary>
                 East direction
             </summary>
@@ -24,7 +24,7 @@
                 South direction
             </summary>
         </member>
-        <member name="F:Codecool.LifeOfAnts.Direction.West">
+        <member name="F:Codecool.LifeOfAnts.Direction.East">
             <summary>
                 West direction
             </summary>

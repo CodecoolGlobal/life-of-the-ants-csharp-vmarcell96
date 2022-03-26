@@ -1,4 +1,10 @@
 ﻿using System;
+using Codecool.LifeOfAnts.Ants;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Codecool.LifeOfAnts.Ants;
 
 namespace Codecool.LifeOfAnts
 {
@@ -13,6 +19,22 @@ namespace Codecool.LifeOfAnts
         public static void Main()
         {
             Console.WriteLine("Hello, Ants!");
+            var colony = new Colony(15);
+            colony.GenerateAnts(2, 2, 2);
+            colony.Display();
+            string input = "";
+            while (input != "q")
+            {
+                input = Console.ReadLine();
+                if (input == "")
+                {
+                    Console.Clear();
+                    Console.WriteLine("User pressed \"Enter\"");
+                    colony.Update();
+                    colony.Display();
+                }
+            }
+            Console.WriteLine("See you next time!");
         }
     }
 }

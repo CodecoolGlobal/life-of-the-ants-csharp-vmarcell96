@@ -25,5 +25,6 @@
         ///     Gets Y coordinate
         /// </summary>
         public int Y { get; }
+
     }
 }
