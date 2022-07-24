@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Codecool.LifeOfAnts.Ants;
 
 namespace Codecool.LifeOfAnts.Utility
 {
@@ -15,10 +10,6 @@ namespace Codecool.LifeOfAnts.Utility
             return position;
         }
 
-/*        private static bool IsFieldEmpty(Position position, Ant[,] colony)
-        {
-            return colony[position.X, position.Y] == null;
-        }*/
 
         public static int PickRandomNumber(int min, int max)
         {
@@ -26,10 +17,6 @@ namespace Codecool.LifeOfAnts.Utility
             return random.Next(min, max);
         }
 
-/*        public static bool IsValidMove(Position position, Ant[,] colony)
-        {
-            return IsFieldEmpty(position, colony) && IsPositionInBounds(position, colony);
-        }*/
 
         public static bool IsPositionInBounds(Position position, int width)
         {

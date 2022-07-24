@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Codecool.LifeOfAnts.Utility;
 
 namespace Codecool.LifeOfAnts.Ants
@@ -32,6 +29,7 @@ namespace Codecool.LifeOfAnts.Ants
                         _isMatingCounter = 10;
                         _queen.IsReadyToMate = false;
                         _queen.MatingMoodCounter = Util.PickRandomNumber(50, 100);
+                        Console.WriteLine("HALLELUJAH");
                     }
                     else
                     {
